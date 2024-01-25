@@ -8,11 +8,11 @@ Docuemtation of the NTP Client Server setup for Debian 11 "bullseye"
 
 ### Preperation
 ```
-apt update && apt upgrade --show-upgraded
+sudo apt update && apt upgrade --show-upgraded
 ```
 ### Installation
 ```
-apt install ntp
+sudo apt install ntp
 ```
 ### Configuration with ufw
 ```
